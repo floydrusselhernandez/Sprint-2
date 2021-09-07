@@ -316,10 +316,11 @@ section{
     text-align: center;
     border:var(--border);
     border-radius: 5px;
+    min-height: 10px !important;
 }
 
 .order .box-container .input{
-    width: 50%;
+    width: 20%;
     padding: 1%;
     margin-bottom: 2%;
     border-radius: 5px;
@@ -350,7 +351,8 @@ section{
 
 .order .box-container img{
     height: 15rem;
-    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
     float: left;
 }
 
@@ -360,6 +362,10 @@ section{
     color: #fff;
     font-size: 2rem;
     text-align: left;
+}
+
+#quantity{
+    text-align: center;
 }
 
 .order .box-container .input-responsive{
